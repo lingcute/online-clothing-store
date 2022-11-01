@@ -52,7 +52,7 @@
         }
 
         // Chuyển sang trang index.php
-        header("location:Customer/index.php");
+        header("location:index-2.php");
     }
     // mysql_close($con);
 

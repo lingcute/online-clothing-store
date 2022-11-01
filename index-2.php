@@ -1,7 +1,13 @@
+<?php
+if(!isset($_SESSION))
+{
+session_start();
+}
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Online Clothing Store</title>
+<title>ONLINE CLOTH SHOPPING</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <style type="text/css">
@@ -13,18 +19,21 @@
 </head>
 <body>
 <div id="wrapper">
-
+  
   <?php
-  include "Header.php";
+  include "Header-2.php";
   ?>
+  <div id="content">
+    <h2><span style="color:#003300"> Welcome  <?php echo $_SESSION['Name'];?></span></h2>
+    <p align="justify">&nbsp;</p>
+    
+    <p>&nbsp;</p>
+  </div>
+ 
 
   
- <?php
- include "Right.php";
- ?>
-  <div style="clear:both;"></div>
-  
+
+ 
 </div>
-
 </body>
 </html>

@@ -84,7 +84,7 @@ CREATE TABLE `customer_registration` (
 
 -- --------------------------------------------------------
 INSERT INTO `customer_registration` (`CustomerId`, `CustomerName`, `Address`, `City`,  `Email`, `Mobile`, `Gender`, `BirthDate`, `UserName`,`Password`) VALUES
-(1, 'troi', 'Hcm', 'VietNam', 'ha@gmail.com', '0303052000', 'F', '03/10/2002', 'thanhha','123' );
+(1, 'Ha', 'Hcm', 'VietNam', 'ha@gmail.com', '0303052000', 'F', '03/10/2002', 'thanhha','123' );
 
 --
 -- Table structure for table `feedback_master`
